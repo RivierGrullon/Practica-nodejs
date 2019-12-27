@@ -1,5 +1,5 @@
 // const http = require('http')
-// const colors = require('colors')
+const colors = require('colors')
 // const HandleServer = function(req,res){
 
 //     res.writeHead(200);
@@ -16,3 +16,13 @@
 const express = require("express")
 
 const server = express();
+
+server.get("/", (req,res)=>{
+    res.send(<h1>Hola Mundo</h1>)
+    res.end()
+})
+
+server.listen(3000,()=>{
+    console.log("server on port 3000".red)
+
+})
