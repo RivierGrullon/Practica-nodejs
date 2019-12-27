@@ -1,0 +1,24 @@
+{
+  "name": "practica-nodejs",
+  "version": "0.0.1",
+  "description": "Practicas de nodejs",
+  "main": "index.js",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "C:Users/rivie/Desktop/practica-nodejs/.git/"
+  },
+  "keywords": [
+    "nodejs",
+    "practicas",
+    "español"
+  ],
+  "author": "Rivier Grullon",
+  "license": "ISC"
+}
